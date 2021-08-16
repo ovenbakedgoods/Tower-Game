@@ -4,8 +4,13 @@ namespace TreehouseDefense
     {
         public static void Main()
         {
-            Map map = new Map(8, 5);
-            
+            Tower tower = new Tower();
+
+            Map map = new Map();
+            //assign width and height to new map
+            map.Width = 8;
+            map.Height = 5;
+
             int area = map.Width * map.Height;
         }
     }
